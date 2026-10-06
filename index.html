@@ -12,11 +12,13 @@
 
 <body>
 
+    <!-- Navigation -->
+
     <header>
         <nav>
             <h2>SAFAH</h2>
 
-            <div>
+            <div class="nav-links">
                 <a href="#about">About</a>
                 <a href="#projects">Projects</a>
                 <a href="#skills">Skills</a>
@@ -27,6 +29,8 @@
 
 
     <main>
+
+        <!-- Hero Section -->
 
         <section class="hero">
 
@@ -39,7 +43,7 @@
                 Digital Forensics, Incident Response & Security.
             </h2>
 
-            <p>
+            <p class="intro">
                 I'm building practical cybersecurity projects while
                 developing my skills in digital forensics, Python,
                 networking and security investigations.
@@ -47,88 +51,206 @@
 
             <div class="buttons">
                 <a href="#projects">View My Projects</a>
-                <a href="#contact">Contact Me</a>
+                <a href="#contact" class="secondary-button">Contact Me</a>
             </div>
 
         </section>
 
 
+        <!-- About -->
+
         <section id="about">
 
-            <h2>About Me</h2>
+            <p class="eyebrow">ABOUT ME</p>
+
+            <h2>Who I Am</h2>
 
             <p>
-                I'm a final-year Cybersecurity student building
-                practical projects to develop my technical skills
-                and prepare for a career in cybersecurity.
+                I'm a final-year Cybersecurity student building practical
+                projects to develop my technical skills and prepare for
+                a career in cybersecurity.
+            </p>
+
+            <p>
+                I'm particularly interested in digital forensics,
+                security investigations and understanding how technical
+                evidence can be used to investigate incidents.
             </p>
 
         </section>
 
 
+        <!-- Projects -->
+
         <section id="projects">
+
+            <p class="eyebrow">MY WORK</p>
 
             <h2>Featured Project</h2>
 
             <div class="project-card">
 
-                <p class="eyebrow">DIGITAL FORENSICS</p>
+                <div class="project-number">
+                    01
+                </div>
 
-                <h3>Digital Forensic Investigation</h3>
-
-                <p>
-                    A forensic investigation using Autopsy and an
-                    E01 forensic disk image. The investigation
-                    involved analysing emails, deleted data,
-                    web history, documents and hidden audio artefacts.
+                <p class="project-type">
+                    DIGITAL FORENSICS
                 </p>
 
+                <h3>
+                    Digital Forensic Investigation
+                </h3>
+
                 <p>
-                    <strong>Tools:</strong>
-                    Autopsy · E01 · MD5 · Windows
+                    A digital forensic investigation using Autopsy and
+                    an E01 forensic disk image. The investigation involved
+                    analysing emails, deleted data, web history, documents
+                    and hidden audio artefacts.
                 </p>
 
-                <a href="#">View Project →</a>
+                <div class="tags">
+                    <span>Autopsy</span>
+                    <span>E01</span>
+                    <span>MD5</span>
+                    <span>Digital Forensics</span>
+                </div>
+
+                <a href="#" class="project-link">
+                    View Project →
+                </a>
+
+            </div>
+
+
+            <!-- Future Projects -->
+
+            <div class="coming-soon">
+
+                <p class="project-type">
+                    COMING SOON
+                </p>
+
+                <h3>Python Forensic File Analyzer</h3>
+
+                <p>
+                    A Python-based tool for analysing files,
+                    calculating hashes and extracting useful
+                    forensic information.
+                </p>
+
+            </div>
+
+
+            <div class="coming-soon">
+
+                <p class="project-type">
+                    COMING SOON
+                </p>
+
+                <h3>Network Traffic Investigation</h3>
+
+                <p>
+                    A practical investigation using network traffic
+                    analysis to identify suspicious activity.
+                </p>
 
             </div>
 
         </section>
 
 
+        <!-- Skills -->
+
         <section id="skills">
 
-            <h2>Skills</h2>
+            <p class="eyebrow">TECHNICAL SKILLS</p>
 
-            <ul>
-                <li>Digital Forensics</li>
-                <li>Autopsy</li>
-                <li>Python</li>
-                <li>Wireshark</li>
-                <li>Nmap</li>
-                <li>Linux / Kali Linux</li>
-                <li>SQL</li>
-                <li>Networking</li>
-            </ul>
+            <h2>What I Work With</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill">
+                    <h3>Digital Forensics</h3>
+                    <p>
+                        Autopsy, forensic disk images,
+                        evidence analysis and investigation.
+                    </p>
+                </div>
+
+                <div class="skill">
+                    <h3>Programming</h3>
+                    <p>
+                        Python, Java and basic web development.
+                    </p>
+                </div>
+
+                <div class="skill">
+                    <h3>Networking</h3>
+                    <p>
+                        Wireshark, Nmap, Packet Tracer
+                        and network fundamentals.
+                    </p>
+                </div>
+
+                <div class="skill">
+                    <h3>Security</h3>
+                    <p>
+                        Kali Linux, vulnerability scanning,
+                        security analysis and incident investigation.
+                    </p>
+                </div>
+
+            </div>
 
         </section>
 
 
+        <!-- Contact -->
+
         <section id="contact">
+
+            <p class="eyebrow">GET IN TOUCH</p>
 
             <h2>Let's Connect</h2>
 
             <p>
-                I'm currently developing my cybersecurity portfolio
-                and looking for opportunities to grow my experience.
+                I'm currently building my cybersecurity portfolio
+                and looking for opportunities to develop my
+                technical experience.
             </p>
 
-            <p>
-                GitHub: safahk16
-            </p>
+            <div class="contact-links">
+
+                <a href="https://github.com/safahk16">
+                    GitHub
+                </a>
+
+                <a href="#">
+                    LinkedIn
+                </a>
+
+                <a href="mailto:YOUR-EMAIL@example.com">
+                    Email
+                </a>
+
+            </div>
 
         </section>
 
     </main>
 
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 Safah · Cybersecurity Portfolio
+        </p>
+
+    </footer>
+
 </body>
+
 </html>
