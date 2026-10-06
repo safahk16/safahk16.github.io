@@ -445,3 +445,150 @@ footer {
         font-size: 40px;
     }
 }
+/* =========================
+   PROJECT PAGE
+========================= */
+
+.project-hero {
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-hero h1 {
+    font-size: 60px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    max-width: 900px;
+}
+
+.project-intro {
+    font-size: 21px;
+    color: #f2d7e2;
+    max-width: 750px;
+    margin-bottom: 25px;
+}
+
+
+/* =========================
+   METHODOLOGY
+========================= */
+
+.method-list {
+    max-width: 850px;
+    margin-top: 35px;
+}
+
+.method {
+    display: flex;
+    gap: 25px;
+
+    padding: 25px 0;
+
+    border-bottom: 1px solid #342d35;
+}
+
+.method span {
+    color: #f09ab9;
+    font-weight: bold;
+    font-size: 15px;
+    min-width: 30px;
+}
+
+.method h3 {
+    margin-bottom: 8px;
+}
+
+.method p {
+    color: #ffffff;
+}
+
+
+/* =========================
+   TIMELINE
+========================= */
+
+.timeline {
+    max-width: 850px;
+    margin-top: 35px;
+    border-left: 2px solid #e88baa;
+    padding-left: 30px;
+}
+
+.timeline-item {
+    margin-bottom: 35px;
+}
+
+.timeline-item strong {
+    color: #f09ab9;
+    font-size: 16px;
+}
+
+.timeline-item p {
+    margin-top: 8px;
+    color: #ffffff;
+}
+
+
+/* =========================
+   BACK BUTTON
+========================= */
+
+.back-section {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.secondary-button {
+    display: inline-block;
+
+    padding: 13px 23px;
+
+    border-radius: 8px;
+
+    background: transparent;
+
+    color: #ffffff;
+
+    border: 1px solid #e88baa;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.secondary-button:hover {
+    background: #e88baa;
+    color: #17151c;
+}
+
+
+/* =========================
+   PROJECT PAGE MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+    .project-hero {
+        min-height: 60vh;
+    }
+
+    .project-hero h1 {
+        font-size: 42px;
+    }
+
+    .project-intro {
+        font-size: 18px;
+    }
+
+    .method {
+        gap: 15px;
+    }
+
+    .timeline {
+        padding-left: 20px;
+    }
+}
