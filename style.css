@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     background: #0b1020;
-    color: #FFFFF;
+    color: #ffffff;
     line-height: 1.6;
     padding: 40px;
 }
@@ -29,7 +29,7 @@ h3 {
 }
 
 p {
-    color: #00000;
+    color: #b8bfd3;
     max-width: 750px;
 }
 
@@ -41,7 +41,7 @@ hr {
 
 ul {
     margin-left: 25px;
-    color: #FFFFF;
+    color: #b8bfd3;
 }
 
 li {
@@ -52,7 +52,7 @@ body::before {
     content: "";
     display: block;
     height: 4px;
-    background: #FFFFF;
+    background: #8b7cff;
     position: fixed;
     top: 0;
     left: 0;
