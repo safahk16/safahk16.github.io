@@ -592,3 +592,26 @@ footer {
         padding-left: 20px;
     }
 }
+/* =========================
+   PROJECT PAGE SPACING
+========================= */
+
+.project-hero {
+    padding-bottom: 40px;
+}
+
+.project-hero + section {
+    padding-top: 50px;
+}
+
+.project-hero + section p:not(.eyebrow) {
+    margin-bottom: 12px;
+}
+
+section > p:not(.eyebrow) {
+    margin-bottom: 12px;
+}
+
+section > p:not(.eyebrow) + p:not(.eyebrow) {
+    margin-top: 0;
+}
