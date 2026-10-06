@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    background: #0b1020;
+    background: #171522;
     color: #ffffff;
     line-height: 1.6;
     padding: 0 8%;
@@ -18,7 +18,7 @@ body {
 
 header {
     padding: 25px 0;
-    border-bottom: 1px solid #252c40;
+    border-bottom: 1px solid #3a3140;
 }
 
 nav {
@@ -29,7 +29,7 @@ nav {
 
 nav h2 {
     margin: 0;
-    color: #ffffff;
+    color: #f3a6c8;
 }
 
 nav a {
@@ -39,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #8b7cff;
+    color: #f3a6c8;
 }
 
 main {
@@ -55,7 +55,7 @@ main {
 }
 
 .eyebrow {
-    color: #8b7cff;
+    color: #f3a6c8;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -68,9 +68,9 @@ main {
 }
 
 .hero h2 {
-    color: #ffffff;
+    color: #d9b8d0;
     font-size: 28px;
-    max-width: 800px;
+    max-width: 850px;
     margin-bottom: 20px;
 }
 
@@ -89,13 +89,13 @@ main {
     margin-right: 10px;
     border-radius: 8px;
     text-decoration: none;
-    background: #8b7cff;
-    color: #ffffff;
+    background: #e88fb5;
+    color: #171522;
     font-weight: bold;
 }
 
 .buttons a:hover {
-    opacity: 0.8;
+    background: #f3a6c8;
 }
 
 section {
@@ -103,7 +103,7 @@ section {
 }
 
 section > h2 {
-    color: #8b7cff;
+    color: #f3a6c8;
     font-size: 32px;
     margin-bottom: 20px;
 }
@@ -114,9 +114,9 @@ section p {
 }
 
 .project-card {
-    background: #12182b;
-    border: 1px solid #252c40;
-    border-radius: 15px;
+    background: #211b2a;
+    border: 1px solid #4a3546;
+    border-radius: 18px;
     padding: 35px;
     margin-top: 25px;
     max-width: 800px;
@@ -132,7 +132,7 @@ section p {
 }
 
 .project-card a {
-    color: #8b7cff;
+    color: #f3a6c8;
     text-decoration: none;
     font-weight: bold;
 }
@@ -147,8 +147,8 @@ ul {
 
 li {
     display: inline-block;
-    background: #12182b;
-    border: 1px solid #252c40;
+    background: #211b2a;
+    border: 1px solid #4a3546;
     border-radius: 8px;
     padding: 10px 15px;
     margin: 5px;
